@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #home {
+    min-height: 300px;
+    background-color: #86bbd8
+  }
+
+  #about {
+    min-height: 300px;
+    background-color: #ffd07b;
+  }
+
+  #services {
+    min-height: 300px;
+    background-color: #37423d;
+  }
+
+  #contact {
+    min-height: 300px;
+    background-color: #86bbd8;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      display: none;
+      flex-direction: column;
+      background-color: #444;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 150px;
+      padding: 10px;
+    }
+  
+    .navbar a {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  main {
+    
+  }
+  
+  section {
+    padding: 10%;
+  }
