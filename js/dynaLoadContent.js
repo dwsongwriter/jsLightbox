@@ -6,11 +6,11 @@ const imageElement = document.getElementById('responsiveImage');
 function loadResponsiveImage(event) {
   if (event.matches) {
     // Screen width is 600px or less - load small image
-    imageElement.src = 'small-image.jpg';
+    imageElement.src = '../img/small-image.jpg';
     imageElement.alt = 'Small resolution image';
   } else {
     // Screen width is greater than 600px - load large image
-    imageElement.src = 'large-image.jpg';
+    imageElement.src = '../img/large-image.jpg';
     imageElement.alt = 'Large resolution image';
   }
 }
