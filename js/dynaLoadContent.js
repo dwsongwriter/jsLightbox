@@ -7,6 +7,7 @@ function loadResponsiveImage(event) {
   if (event.matches) {
     // Screen width is 600px or less - load small image
     imageElement.src = 'img/small-image.jpg';
+    // imageElement.style.maxWidth = '350px';
     imageElement.alt = 'Small resolution image';
   } else {
     // Screen width is greater than 600px - load large image
